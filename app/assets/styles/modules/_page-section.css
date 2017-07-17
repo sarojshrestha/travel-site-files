@@ -1,0 +1,10 @@
+.page-section{
+    padding:2rem 0;
+    &_feature{
+        background-color:$mainBlue;
+        color:$whiteColor;
+    }
+    @mixin atSmall{
+        padding:4rem 0;
+    }
+}
